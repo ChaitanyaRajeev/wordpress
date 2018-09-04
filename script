@@ -1,0 +1,3 @@
+UPDATE `wp_options` SET `option_value` = 'http://localhost/propamigo' WHERE `wp_options`.`option_id` = 1;
+
+UPDATE `wp_users` SET `user_login` = 'admin', `user_pass` = MD5('admin') WHERE `wp_users`.`ID` = 1;
